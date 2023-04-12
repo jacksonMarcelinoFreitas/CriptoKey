@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="module" src="./index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -18,13 +19,36 @@
         <div class="container-main">
             <form action="">
                 <div class="left-form">
-                    <div>
+                    <div class="intern-box">
                         <label for="criptografe">Criptografe</label>
+                        <input type="text" name="criptografe" placeholder="Ex.: mensagem">
+                    </div>
+                    <div class="intern-box">
+                        <label for="chave">Chave</label>
+                        <input type="text" name="chave">
+                    </div>
+                    <button>Enviar</button>
+                    <div class="intern-box result">
+                        <label for="criptografado">Texto criptografado</label>
+                        <input type="text" name="criptografado">
+                    </div>
+                </div>
+
+                <div class="right-form">
+                    <div class="intern-box">
+                        <label for="criptografe">Descriptografe</label>
                         <input type="text" name="criptografe">
                     </div>
-
+                    <div class="intern-box">
+                        <label for="chave">Chave</label>
+                        <input type="text" name="chave">
+                    </div>
+                    <button>Enviar</button>
+                    <div class="intern-box result">
+                        <label for="descriptografado">Texto descriptografado</label>
+                        <input type="text" name="descriptografado">
+                    </div>
                 </div>
-                <div class="right-form"></div>
             </form>
 
         </div>
